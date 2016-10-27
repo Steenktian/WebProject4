@@ -1,0 +1,32 @@
+
+
+#viewingZone{
+  margin: 0px 5%;
+  margin-top: 25px;
+
+}
+
+.screen{
+  width: 5%; 
+  height: 5%; 
+}
+
+img{
+  width: 100%; 
+  height: 25%;
+}
+
+#highlightZone{
+	height: 10%;
+}
+
+.largescreen{
+  width: 10%;
+  height: 100%;
+  padding: 0 5%;
+
+}
+
+#largeImage{
+	height: 50%;
+}

@@ -1,0 +1,112 @@
+table{
+  margin-top: 20px;
+}
+
+button{
+  
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-left: 15%;
+  padding: 5px 100px;
+}
+
+.bodyLog{
+  margin: 0% auto;
+  width: 80%;
+  background-color: none;
+}
+
+.infobox{
+  margin: 2.5% auto;
+  background-color: #1F1F1F;
+  padding-bottom: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.loginpagetitle{
+ text-align: center;
+ font-size: 30px;
+ font-weight: 10px;
+}
+
+
+/*below code gathered from https://codepen.io/aank93/pen/qnEhw */
+
+.nav {
+  
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-left: 15%;
+  width: 300px;
+  height: 200px;
+  background: #fff;
+  border-radius: 5px; 
+  text-align: center;
+  padding-top: 1px;
+  box-shadow: 0 0 10px rgba(0,0,0, .5);
+  
+}
+.username {
+  border: 1px solid #a6a6a6;
+  width: 230px;
+  height: 40px;
+  border-radius: 3px;
+  margin-top: 25px;
+  padding-left: 9px;
+  color: #6c6c6c;
+  background: #fcfcfc;
+  outline: none;
+}
+
+.password {
+  border: 1px solid #a6a6a6;
+  width: 230px;
+  height: 40px;
+  border-radius: 3px;
+  margin-top: 5px;
+  margin-right: 3px;
+  padding-left: 9px;
+  color: #6c6c6c;
+  background: #fcfcfc;
+  outline: none;
+}
+
+.password:hover, .username:hover {
+  box-shadow: 0 0 10px rgba(178,34,34, 1); 
+  border: 1px #b22222  solid ;
+}
+
+.password:focus, .username:focus, .button:focus, .button:hover:focus{
+  box-shadow: 0 0 10px rgba(178,34,34, 1); 
+  border: 1px #b22222  solid ;
+}
+
+.button {
+  color:#fff;
+  font-size:20px;
+  border: 1px solid #a6a6a6;
+  width: 243px;
+  height: 43px;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-right: 6px;
+  outline: none;
+  background: rgb(255,48,25);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3019', endColorstr='#cf0404',GradientType=0 ); /* IE6-9 */
+}
+
+.button:hover{
+    background: rgb(204,0,0); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc0000', endColorstr='#cc0000',GradientType=0 ); /* IE6-9 */
+}
+  
+label {
+  top: 5px;
+  margin-left: 65px;
+  margin-right: 65px;
+}
+label span {
+  margin-left: 5px;
+  font-size:14px;
+}

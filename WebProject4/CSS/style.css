@@ -1,0 +1,159 @@
+html, body{ 
+  /* http://steklo.fox-art.by/wp-content/uploads/2016/02/1-72.jpg */
+
+  background-image: url("../Images/earth-7251x4018-planet-space-10121.jpg");
+  background-size:cover;
+  background-color: rgba(31, 31, 31, 0.95);
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-size: 30px;
+  font-family: Monaco;
+  color: #BBBBBB;
+}
+
+a {
+  color: #BBBBBB;
+}
+
+h1 {
+  margin: 0;
+  padding-top: 25px;
+}
+
+table{
+  background-color: rgba(31, 31, 31, 0.8);
+  padding: 2.5%;
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+hr{
+  width: 90%;
+}
+
+p{
+  padding: 1.5%;
+}
+
+.body{
+  margin: 0 auto;
+  background-color: rgba(54, 54, 54, 0.9);
+  height: 100%;
+  width: 90%;
+}
+
+.title{
+  height: 150px;  
+  background-color: rgba(36, 36, 36, 0.9);
+  text-align: center;
+}
+
+.Home{
+  height:65%;
+}
+
+.conatinerLarge{
+  opacity: 1;
+  margin: 5% 2.5%;
+  height: 200px;
+  width: 95%;
+  text-align: center;
+  background-color: rgba(36, 36, 36, 0.9);
+  color: #BBBBBB;
+}
+
+.conatiners{
+  opacity: 1;
+  margin: 2.5%;
+  height: 200px;
+  width: 28%;
+  text-align: center;
+  background-color: rgba(36, 36, 36, 0.9);
+  color: #BBBBBB;
+  float: left;
+}
+
+.watch{
+  height: 40%;  
+  background-color: #7AA3CC;
+  text-align: center;
+}
+
+.homeText{
+  vertical-align: middle;
+  padding-top: 65px;
+  margin: 5%;
+}
+
+#hidybox{
+  float: left;
+  height:97.5%;
+  padding: 20px;
+}
+
+#navbar{
+  font-size: 20px;
+  float: left;
+  margin-left: 50px;
+}
+
+.sidebar{
+  background-color: rgba(36, 36, 36, 0.9);
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+  transition: 0.3s
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.fourm_background{
+  margin: 0 auto;
+  margin-top: 20px;
+  background-color: rgba(54, 54, 54, 0.9);
+  height:100%;
+  width: 80%;
+}
+
+.post{
+  margin: 0 auto;
+  background-color: #DCDEDC;
+  height:10%;
+  width:90%;
+}
+
+.fourmText{
+  font-size: 20px;
+  font-family: Monaco;
+  color: #000000;
+}
+
+
+@media screen and (max-height: 450px) {
+.sidebar {padding-top: 15px;}
+.sidebar a {font-size: 18px;}
+}
+
